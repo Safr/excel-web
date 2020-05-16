@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["import", "prettier"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": ["error", { "code": 100 }],
+    "prefer-promise-reject-errors": ["off"]
+  },
+  "settings": {
+    "import/no-unresolved": "off",
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
