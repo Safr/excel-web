@@ -17,13 +17,13 @@
     "javascript",
     "excel"
   ],
-  "author": "Vladilen Minin <vladilen.minin@gmail.com>",
+  "author": "Safr <djpo3etka@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vladilenm/excel-course/issues"
+    "url": "https://github.com/safr/excel-course/issues"
   },
-  "homepage": "https://github.com/vladilenm/excel-course#readme",
-  "private": true,
+  "homepage": "https://github.com/safr/excel-course#readme",
+  "private": false,
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.8.4",
